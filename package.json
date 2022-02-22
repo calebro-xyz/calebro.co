@@ -1,25 +1,20 @@
 {
-  "name": "calebro.co",
+  "name": "landingpage-tailwind",
   "version": "1.0.0",
   "description": "",
-  "main": "tailwind.config.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/calebroHQ/calebro.co.git"
+    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/calebroHQ/calebro.co/issues"
-  },
-  "homepage": "https://github.com/calebroHQ/calebro.co#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "daisyui": "^1.16.1"
   }
 }
