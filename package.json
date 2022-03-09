@@ -1,20 +1,20 @@
 {
-  "name": "landingpage-tailwind",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "tw:build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^3.0.23"
-  },
-  "dependencies": {
-    "daisyui": "^1.16.1"
-  }
+    "name": "landingpage-tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tailwindcss build ./src/css/tailwind.css -o ./public/css/tailwind.css"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.3.11",
+        "tailwindcss": "^3.0.23"
+    },
+    "dependencies": {
+        "daisyui": "^1.16.1"
+    }
 }
